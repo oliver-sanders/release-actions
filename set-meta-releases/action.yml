@@ -19,7 +19,7 @@ runs:
         python-version: 3.9
 
     - name: fetch branch file
-      timeout-minutes: 2
+      shell: bash
       run: |
         wget https://raw.githubusercontent.com/cylc/cylc-admin/master/docs/status/branches.json
 
